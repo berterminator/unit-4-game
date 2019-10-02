@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="body">
+        <h1>Crystals Collector!</h1>
+
+        <div id="instructions-text">
+            <div id="instructions-text-inside">
+                <p id="instructions-text-inside-first">You will be giben a random number at the start of the game.</p>
+                <p id="instructions-text-inside-p">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p id="instructions-text-inside-p">YOu win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+                <p id="instructions-text-inside-p">The value of each crystal is hidden from you until you click on it.</p>
+                <p id="instructions-text-inside-p">Each time when yhe game starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
+
+        <div id="numbers-div">
+            <div id="random-number-block">
+                <div id="random-number-block-inner">
+                    <p><b>Random Number:</b></p>
+                    <p id="random-number-text">0</p>
+                </div>
+
+            </div>
+
+            <div id="sum-text-div">
+                <div id="sum-div-inner">
+                        <p><b>Your sum:</b></p>
+                        <p id="sum-text">0</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="numbers-div">
+            <button id="button1"><img class="image" src="assets/images/button1.jpg" alt="diamond"></button>
+            <button id="button2"><img class="image" src="assets/images/button2.jpg" alt="diamond"></button>
+            <button id="button3"><img class="image" src="assets/images/button3.jpg" alt="diamond"></button>
+            <button id="button4"><img class="image" src="assets/images/button4.jpg" alt="diamond"></button>
+
+        </div>
+
+        <div id="score-board-div">
+                <div id="score-board-div-inner">
+                    <p><span><b>Wins: </b></span><span id="wins-text">0</span></p>
+                    <p><span><b>Losses: </b></span><span id="losses-text">0</span></p>
+                </div>
+            </div>
+    </div>
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

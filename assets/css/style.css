@@ -1,0 +1,89 @@
+#body{
+    width: 700px;
+    margin: 30px auto;
+
+}
+
+h1{
+    background-color: orange;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    color: white;
+}
+
+#instructions-text{
+    background-color: peachpuff;
+}
+
+#instructions-text-inside{
+    margin: 20px auto;
+    padding: 20px;
+    width: 500px;
+    color: green;
+    font-weight: bold;
+    text-align: justify;
+
+}
+
+#instructions-text-inside-p{
+    margin: 20px 0px 0px 0px;
+}
+
+#instructions-text-inside-first{
+    margin: 0px 0px 0px 0px;
+}
+
+#random-number-block{
+    background-color: green;
+    margin: 0px 0px 0px 20px;
+    width: 45%;
+    height: 100px;
+    display: block;
+    float: left;
+}
+
+#random-number-block-inner{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+#score-board-div{
+    margin: 20px 0px 0px 0px;
+    background-color: rgb(175, 86, 86);
+    text-align: center;
+    display: block;
+    float: left; 
+    width: 100%;
+}
+
+#score-board-div-inner{
+    padding: 10px;
+    text-align: center;
+}
+
+#sum-text-div{
+    background-color: aqua;
+    margin: 0px 20px 0px 0px;
+    width: 45%;
+    height: 100px;
+    display: block;
+    float: right;
+    text-align: center;
+}
+
+#numbers-div{
+    height: 100px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+    background-color:  peachpuff;
+    padding: 10px 0px;
+}
+
+.image{
+    height: 95px;
+}
