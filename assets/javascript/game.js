@@ -21,6 +21,8 @@ $(document).ready(function() {
 
 
     function create(){
+        sumText = 0;
+        $("#sum-text").text(sumText);
 
     // This function creates a random number from 18 to 120:
         randomNumber = Math.floor((Math.random() * (120 - 19 + 1)) + 19);
@@ -66,25 +68,28 @@ $(document).ready(function() {
             $("#sum-text").text(sumText);
         });
 
-        console.log(SumText);
+        $(".button").on("click", function(){
+            console.log(sumText);
 
+            if(sumText === randomNumber){
+                alert("You won!");
+                wins++;
+                $("#wins-text").text(wins);
+                create();
+            }
+            if(sumText > randomNumber){
+                alert("You lost! Try again.");
+                losses++;
+                $("#losses-text").text(losses);
+                create();
+            }
+        });
     
         
 
     // // Here we define if the player wins or loses:
 
-        if(sumText === randomNumber){
-            alert("You won!");
-            wins++;
-            $("#wins-text").text(wins);
-            create();
-        }
-        if(sumText > randomNumber){
-            alert("You lost! Try again.");
-            losses++;
-            $("#losses-text").text(losses);
-            create();
-        }
+
     }
     create();
 });
